@@ -50,7 +50,7 @@ prediction = parking_model.predict(input_df)[0]
 
 # Display result
 if prediction == 1:
-    st.success("✅ There is an empty parking space. You can park here.")
+    st.success("✅ There is an empty parking space. You can ENTER INSIDE.")
 else:
-    st.error("❌ No empty parking space available.")
+    st.error("❌ No PARKING AVAILABLE. STOP PLEASE")
 
